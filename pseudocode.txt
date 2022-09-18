@@ -1,0 +1,25 @@
+STORE "Jumlah_Barang" AS INTEGER WITH ANY VALUE
+STORE "Total" AS INTEGER WITH ANY VALUE
+STORE "Pilih" AS INTEGER WITH ANY VALUE
+STORE "Harga" AS INTEGER WITH ANY VALUE
+
+Write "1. Tas harga Rp.100.000"
+Write "2. Sepatu harga Rp.300.000"
+Write "3. Topi harga Rp.200.000"
+DISPLAY "PILIHAN"
+
+IF Pilih = 1
+    STORE "Harga" WITH VALUE 100000
+ELSE IF Pilih = 2
+    STORE "Harga" WITH VALUE 300000
+ELSE IF Pilih = 3
+    STORE "Harga" WITH VALUE 200000
+ELSE
+    DISPLAY "BARANG TIDAK TERSEDIA"
+END IF
+
+DISPLAY "Masukan Jumlah Barang"
+INPUT Jumlah_Barang
+STORE "Total" WITH VALUE "Harga*Jumlah_Barang"
+
+DISPLAY "Total Harga : "
