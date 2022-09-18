@@ -6,7 +6,6 @@ Program kasir sederhana ini digunakan untuk menghitung total belanja yang dilaku
 - Flowchart.drawio
 - README.md
 - Pseudocode.txt
-- Algoritma.txt
 
 Dikerjakan Oleh : 
 - `Fajar Putra Setiawan - BE2633635`
