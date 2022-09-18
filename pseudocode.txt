@@ -2,3 +2,7 @@ STORE "Jumlah_Barang" AS INTEGER WITH ANY VALUE
 STORE "Total" AS INTEGER WITH ANY VALUE
 STORE "Pilih" AS INTEGER WITH ANY VALUE
 STORE "Harga" AS INTEGER WITH ANY VALUE
+
+Write "1. Tas harga Rp.100.000"
+Write "2. Sepatu harga Rp.300.000"
+Write "3. Topi harga Rp.200.000"
