@@ -17,3 +17,9 @@ ELSE IF Pilih = 3
 ELSE
     DISPLAY "BARANG TIDAK TERSEDIA"
 END IF
+
+DISPLAY "Masukan Jumlah Barang"
+INPUT Jumlah_Barang
+STORE "Total" WITH VALUE "Harga*Jumlah_Barang"
+
+DISPLAY "Total Harga : "
